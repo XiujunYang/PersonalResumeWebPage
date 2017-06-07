@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Resume</title>
+
+    <!-- W3 CSS-->
+    <link href="css/w3.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/customered.css" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="col-xs-8 col-md-8">
+        <div class="navbar-header page-scroll">
+          <a class="navbar-brand page-scroll" href="#page-top">My Resume</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a class="page-scroll" href="#profile">Profile</a></li>
+            <li><a class="page-scroll" href="#experience">Experience</a></li>
+            <li><a class="page-scroll" href="#education">Education</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-4 col-md-4">
+        <ul class="nav navbar-nav w3-padding-8" style="float:right">
+          <li>
+            <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#myMessages">
+              My messages
+            </button>
+          </li>
+          <li style="right:5px;left:5px">
+            <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#login">
+              Login/Logout
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile-section">
+        <div class="container panel panel-default">
+          <div class="row">
+            <div class="col-xs-9 col-md-9">
+              <h2>Profile</h2>
+              <div class="panel-body">
+                <p>First name: Amy</p>
+                <p>Last name: Wang</p>
+                <p>Current Country/City:Taiwan</p>
+                <p>Mobile:+886987654321</p>
+                <p>Email:test@gmail.com</p>
+                <p>Language:Chinese,English,Japanese
+                  <button type="button" class="btn btn-info btn-xs active" data-toggle="modal" data-target="#languageLevel">level</button>
+                </p>
+              </div>
+            </div>
+            <div class="col-xs-3 col-md-3" style="padding-top:15px;padding-bottom:15px;padding-right:15px">
+              <img src="img/photo.jpg" style="float:right;width:200px"class="img-rounded col-xs-12"></a>
+              <button type="button" class="btn btn-primary btn-sm active col-xs-12" style="float:right;top:10px;bottom:10px;width:200px"
+                  data-toggle="modal" data-target="#leaveMsg">Send a message to</button>
+            </div>
+
+            <div class="container col-xs-12 col-md-12">
+              <div class="panel-body">
+                <p>Skill:
+                  <a data-toggle="collapse" href="#collapseProgram" class="label item-label">Programming</a>
+                  <a data-toggle="collapse" href="#collapseDB" class="label item-label">Database</a>
+                  <a data-toggle="collapse" href="#collapseOP" class="label item-label">Operation Platform</a>
+                  <a data-toggle="collapse" href="#collapseDT" class="label item-label">Developing Tools</a>
+                </p>
+
+                <div id="collapseProgram" class="panel-collapse collapse in">
+                  <div class="panel-body w3-border-left row">
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">Java</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:90%">90%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">C</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-blue w3-round-large progressText" style="width:50%">50%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">C++</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-blue w3-round-large progressText" style="width:50%">50%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">C#</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-orange w3-round-large progressText" style="width:20%">20%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">Html</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-orange w3-round-large progressText" style="width:30%">30%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="collapseDB" class="panel-collapse collapse in">
+                  <div class="panel-body w3-border-left row">
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">Oracle</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:80%">80%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">MySQL</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:75%">75%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">SQLite</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:80%">80%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">JDBC</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:100%">100%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="collapseOP" class="panel-collapse collapse in">
+                  <div class="panel-body w3-border-left row">
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">Linux</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:70%">70%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">Windows</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:95%">95%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="collapseDT" class="panel-collapse collapse in">
+                  <div class="panel-body w3-border-left row">
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">Eclipse</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:95%">95%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">Git</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:70%">70%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">Android Studio</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:100%">100%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">JIRA</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:100%">100%</div>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 box">
+                      <p class="textBoxHeader">Maven</p>
+                      <div class="w3-light-grey w3-round-large">
+                        <div class="w3-container w3-green w3-round-large progressText" style="width:80%">80%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container panel panel-default">
+            <div class="row">
+              <div class="col-xs-12 col-md-12">
+                <h2>Experience</h2>
+                <div class="panel-body">
+                  <p style="display:inline"><h3 style="display:inline">Success Ltd.</h3> for 3 years</p>
+                  <p>From Aguest 2014 To current</>
+                  <p>Title:Software Engineer</p>
+                  <p>Responsibility in maintaining and optimizing a system</p>
+                  <p>Keyword#
+                    <span data-toggle="collapse" class="label tag">Software-develop</span>
+                    <span data-toggle="collapse" class="label tag">Software-architure</span>
+                    <span data-toggle="collapse" class="label tag">TDD</span>
+                  </p>
+                </div>
+                <div class="line-separator"></div>
+                <div class="panel-body">
+                  <p style="display:inline"><h3 style="display:inline">Happiness Ltd.</h3> for 2 years and 2 months</p>
+                  <p>From Aguest 2012 To Oct 2014</>
+                  <p>Title:IT Engineer</p>
+                  <p>Responsibility in schedule project and system configuration</p>
+                  <p>Keyword#
+                    <span data-toggle="collapse" class="label tag">Project management</span>
+                    <span data-toggle="collapse" class="label tag">Agile</span>
+                    <span data-toggle="collapse" class="label tag">Configuration</span>
+                    <span data-toggle="collapse" class="label tag">Testing</span>
+                  </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 w3-border-top">
+                <h2>Projects</h2>
+                <div class="panel-body">
+                  <h3>Android application demo
+                    <a href="https://developer.android.com/index.html"><span class="glyphicon glyphicon-link"></span></a>
+                  </h3>
+                  <p>From Feb 2012 To May 2012</p>
+                  <p>Description: A deom application that run on Android platform.</p>
+                  <p>Tag#
+                    <span data-toggle="collapse" class="label tag">Android</span>
+                    <span data-toggle="collapse" class="label tag">Android Studio</span>
+                  </p>
+                </div>
+                <div class="line-separator"></div>
+                <div class="panel-body">
+                  <h3>iOS application demo
+                    <a href="https://developer.apple.com/"><span class="glyphicon glyphicon-link"></span></a>
+                  </h3>
+                  <p>From Nov 2011 To Dec 2011</p>
+                  <p>Description: A deom application that run on iOS platform.</p>
+                  <p>Tag#
+                    <span data-toggle="collapse" class="label tag">iOS</span>
+                    <span data-toggle="collapse" class="label tag">Swift</span>
+                  </p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+      <div class="container panel panel-default">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Education Section</h2>
+            <div class="panel-body">
+              <h3><img src="img/National_Sun_Yat-sen_University_logo.jpg" class="img-log">
+                National Sun Yat-sen University
+              </h3>
+              <p>Graduated</p>
+              <p style="font-size:16px">The major: Management of Information System</p>
+              <p>Master degree</p>
+              <p>During: July 2009 - June 2011</p>
+              <p>Thesis: <a href="#">U-learning context with robot.</a></p>
+            </div>
+            <div class="line-separator"></div>
+            <div class="panel-body">
+              <h3><img src="img/National_Taiwan_Normal_University_logo.jpg" class="img-log">
+                National Taiwan Normal University
+              </h3>
+              <p>Graduated</p>
+              <p style="font-size:16px">The major: Management of Information System</p>
+              <p>Bachelor degree</p>
+              <p>During: Sep 2005 - June 2009</p>
+              <p>Final Project: <a href="#">Voip in Police and Ambulance system</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Language level Modal -->
+    <div class="modal fade" id="languageLevel" tabindex="-1" role="dialog" aria-labelledby="languageModalLabel">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" id="languageModalLabel">Language Level</h4>
+          </div>
+          <div class="modal-body">
+            <div class="box">
+              <div class="box-heading">
+                <p style="width:100%" data-value="100">Chinese/Mandarin</p>
+              </div>
+              <div class="box-body row">
+                <div class="col-xs-6 col-md-6">
+                  <p class="textBoxHeader">Listen/Speak</p>
+                  <div class="w3-light-grey w3-round-large">
+                    <div class="w3-container w3-blue w3-round-large progressText" style="width:100%">Native</div>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-md-6">
+                  <p class="textBoxHeader">Read/Write</p>
+                  <div class="w3-light-grey w3-round-large">
+                    <div class="w3-container w3-blue w3-round-large progressText" style="width:100%">Native</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line-separator"></div>
+            <div class="box">
+              <div class="box-heading">
+                <p style="width:100%" data-value="100">English</p>
+              </div>
+              <div class="box-body row">
+                <div class="col-xs-6 col-md-6">
+                  <p class="textBoxHeader">Listen/Speak</p>
+                  <div class="w3-light-grey w3-round-large">
+                    <div class="w3-container w3-blue w3-round-large progressText" style="width:75%">Fluency</div>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-md-6">
+                  <p class="textBoxHeader">Read/Write</p>
+                  <div class="w3-light-grey w3-round-large">
+                    <div class="w3-container w3-blue w3-round-large progressText" style="width:75%">Fluency</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line-separator"></div>
+            <div class="box">
+              <div class="box-heading">
+                <p style="width:100%" data-value="100">Japanese</p>
+              </div>
+              <div class="box-body row">
+                <div class="col-xs-6 col-md-6">
+                  <p class="textBoxHeader">Listen/Speak</p>
+                  <div class="w3-light-grey w3-round-large">
+                    <div class="w3-container w3-blue w3-round-large progressText" style="width:25%">Basic</div>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-md-6">
+                  <p class="textBoxHeader">Read/Write</p>
+                  <div class="w3-light-grey w3-round-large">
+                    <div class="w3-container w3-blue w3-round-large progressText" style="width:50%">communicative</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+    70%
+  </div>
+</div>-->
+            <!--<p style="width:80%" data-value="80">HTML5</p>
+            <progress max="100" value="80" class="html5">
+			<div class="progress-bar">
+				<span style="width: 80%">80%</span>
+			</div>
+		</progress>-->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--My Message Modal-->
+    <div class="modal fade" id="myMessages" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3>Messages Box</h3>
+          </div>
+          <div class="modal-body">
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <div class="row">
+                    <div class="col-xs-9">
+                      <h5 data-toggle="collapse" data-parent="#accordion" href="#collapse1">Message1 Title</h5>
+                    </div>
+                    <div class="col-xs-3"><p class="txt-sent-from">From Jack</p></div>
+                  </div>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                  <div class="panel-body">Message1 text</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <div class="row">
+                    <div class="col-xs-9">
+                      <h5 data-toggle="collapse" data-parent="#accordion" href="#collapse2">Message2 Title</h5>
+                    </div>
+                    <div class="col-xs-3"><p class="txt-sent-from">From Joanna Lin</p></div>
+                  </div>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">Message2 text</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--login Modal-->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="col-xs-12">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label class="control-label col-xs-2" for="email">Email:</label>
+                <div class="col-xs-10">
+                  <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-xs-2" for="pwd">Password:</label>
+                <div class="col-xs-10">
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default" data-dismiss="modal">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Send a message to applicant Modal-->
+    <div class="modal fade" id="leaveMsg" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="title" class="col-xs-1 control-label">Title:</label>
+                <div class="col-xs-10">
+                  <input type="text" class="form-control" id="title" placeholder="Please put a title here.">
+                </div>
+              </div>
+            </form>
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="from" class="col-xs-1 control-label">From:</label>
+                <div class="col-xs-10">
+                  <input type="text" class="form-control" id="from">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="content" class="col-xs-1 control-label">Text:</label>
+                <div class="col-xs-11">
+                  <textarea class="form-control" id="content" rows="5" placeholder="Typing here."></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Send</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding-top:25px">
+      <div class="w3-panel w3-leftbar w3-light-grey" style="padding-top:10px">
+        <p class="w3-xlarge w3-serif">
+          <i>"Make it as simple as possible, but not simpler."</i></p>
+        <p>Albert Einstein</p>
+      </div>
+      <div class="w3-panel w3-leftbar w3-light-grey" style="padding-top:10px">
+        <p class="w3-xlarge w3-serif">
+          <i>"Because the people who are crazy enough to think they can change the world are the ones who do."</i></p>
+        <p>Steve Jobs</p>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

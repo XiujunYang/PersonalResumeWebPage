@@ -1,0 +1,52 @@
+.progressText{
+  text-align: center;
+}
+
+.line-separator{
+  margin: 0 0 10px 0;
+  width: 100%;
+  border-bottom:1px solid #f0f0f0;
+  padding: 10px 0 10px 0;
+}
+
+.item-label{
+  position:relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  top:-1px;
+  font-size:11px;
+  background-color:#0661b4;
+  text-align: center;
+  height: auto;
+  color: white;
+  align:center;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.tag{
+  position:relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  top:-2px;
+  font-size:11px;
+  background-color:#959696;
+  text-align: center;
+  height: auto;
+  color: white;
+  align:center;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.img-log{
+  width:50px;
+  height: 50px;
+  border-radius: 30%
+}
+
+.txt-sent-from{
+  float:right;
+  align:center;
+  padding-top:5px;
+}

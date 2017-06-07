@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-section {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: left;
+    background: #eee;
+}
+
+.experience-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    background: #fff;
+}
+
+.education-section {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    background: #eee;
+}
